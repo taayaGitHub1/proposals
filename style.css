@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -10,9 +11,10 @@ body {
     background-color: #2d2f2f24;
 }
 
+/*start of the first nav bar panel css*/
 .nav-bar {
     width: auto;
-    background-color: #0f1111;
+    background-color: #330b0d;
     height: 60px;
     color: white;
     display: flex;
@@ -20,6 +22,7 @@ body {
     align-items: center;
 }
 
+/*logo of the system.*/
 .nav-logo {
     height: 80px;
     width: 130px;
