@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +22,7 @@ body {
 }
 
 /*logo of the system.*/
-.nav-logo {
+/* .nav-logo {
     height: 80px;
     width: 130px;
 }
@@ -35,7 +34,7 @@ body {
     height: 50px;
     width: 100%;
     background-size: cover;
-}
+} */
 
 .border {
     border: 2px solid transparent;
@@ -124,4 +123,18 @@ body {
 
 .nav-cart i {
     font-size: 40px;
+}
+
+.categories_section
+
+.categories_section select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
 }
