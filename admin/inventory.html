@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="inventory.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+
+            <div class="sidebar-brand">
+                <h1><i class="fa-solid fa-seedling"></i>Eco-Planet</h1>
+            </div>
+
+            <div class="sidebar-menu">
+                <ul>
+                    <li>
+                        <a href="" class="active"><i class="fa-solid fa-igloo"></i><span>Dashboard</span></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-user"></i><span>Customers</span></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-truck-moving"></i><span>Orders</span></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-box"></i><span>Inventory</span></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-regular fa-circle-user"></i><span>Accounts</span></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-clipboard-list"></i><span>Tasks</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <header>
+            <h1><label for="">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                Dashboard
+            </h1>
+            <div class="search-wrapper">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search here..." />
+            </div>
+            <div class="user-wrapper">
+                <img src="" alt="admin">
+                <div>
+                    <h4>HAHA</h4>
+                    <small>Super Admin</small>
+                </div>
+            </div>
+        </header>
+        <div class="inventory_main">
+            <form action="#">
+                <h1>Add Product</h1><br>
+                <input type="image" name="product_img" id="product_img" placeholder="Choose a file...">
+                <input type="text" name="product_name" id="product_name" placeholder="Product Name">
+                <input type="text" name="product_price" id="product_price" placeholder="Price">
+                <input type="number" name="product_quantity" id="product_quantity" placeholder="Quantity">
+                <input type="text" name="product_description" id="product_description" placeholder="Write here...">
+                <button> Add </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
